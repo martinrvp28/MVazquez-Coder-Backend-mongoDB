@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectionString = 'mongodb+srv://admin:pibeschorros11@cluster0.iuoev0j.mongodb.net/ecommerce?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://admin:admin07@cluster0.iuoev0j.mongodb.net/ecommerce?retryWrites=true&w=majority';
 
 try {
     await mongoose.connect(connectionString);
